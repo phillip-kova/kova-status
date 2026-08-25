@@ -1,9 +1,28 @@
-owner: your-github-username
+owner: phillip-kova
 repo: kova-status
+
+theme: dark
+
+customStyle: |
+  :root {
+    --body-background-color: #0D0D10;
+    --body-text-color: #E8E6E1;
+    --card-background-color: #16161C;
+    --nav-background-color: #0D0D10;
+    --nav-border-bottom-color: #26262E;
+    --link-color: #FF6B5B;
+    --up-color: #6EA83E;
+    --down-color: #E24B4A;
+    --degraded-color: #F0A83A;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
 sites:
   - name: Video Calls
     url: https://api.agora.io
-    icon: video-call
   - name: Matching & Pulses
     url: https://diapbnvhkwcdhtrhpfbj.supabase.co/rest/v1/
     expectedStatusCodes: [200, 401]
