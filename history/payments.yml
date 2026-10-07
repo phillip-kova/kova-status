@@ -1,7 +1,7 @@
 url: https://status.revenuecat.com
-status: down
-code: 503
-responseTime: 357
-lastUpdated: 2026-10-07T14:00:46.431Z
+status: up
+code: 200
+responseTime: 355
+lastUpdated: 2026-10-07T19:53:59.976Z
 startTime: 2026-08-25T13:09:35.181Z
 generator: Upptime <https://github.com/upptime/upptime>
